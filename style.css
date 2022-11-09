@@ -46,7 +46,12 @@ a {
 
 p {
   text-align: justify;
-  padding-top: 20px;
+  padding: 10px;
+}
+
+h3 {
+  color: #212529;
+  text-align: center;
 }
 
 /* Accueil */
@@ -57,12 +62,17 @@ p {
   height: 100vh;
 }
 
-.layout-title h1 {
+.layout-title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f1f1f1;
+}
+
+/* Sport Grid */
+.container {
+  margin-top: 100px;
 }
 
 /* Footer */

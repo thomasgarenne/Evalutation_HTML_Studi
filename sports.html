@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css" />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -33,12 +34,12 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
+              <a class="nav-link" aria-current="page" href="/index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/sports.html">Sport</a>
+              <a class="nav-link active" href="/sports.html">Sport</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -49,42 +50,170 @@
     </nav>
     <!-- End NavBar -->
 
-    <!-- Start Accueil -->
-    <section class="layout">
-      <div class="layout-img">
-        <img
-          src="/images/bg_accueil_montagne.jpg"
-          alt="Montagne avec mer de nuage."
-        />
+    <!-- Start Grid Display -->
+    <div class="container layout">
+      <!-- Start card display -->
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img
+              src="/images/snow.png"
+              alt="Snowboarder effectuant un saut en faisant un nosegrab"
+            />
+            <h3 class="layout-title">Snowboard</h3>
+          </div>
+          <div class="card-back">
+            <h3>Snowboard</h3>
+            <p>
+              C'est à un hiver de 1965 sans vagues sur la côte californienne que
+              l'on doit l'invention du snowboard moderne. Sherman Poppen, un
+              surfer passionné, était parti faire un tour dans les montagnes
+              couvertes d'un épais manteau de poudreuse.
+            </p>
+          </div>
+        </div>
       </div>
-
-      <a href="#aventure">
-        <h1 class="layout-title">Association sportive de sport de glisse.</h1>
-      </a>
-    </section>
-    <!-- End Accueil -->
-
-    <!-- Start Presentation -->
-    <section class="layout flux">
-      <h2 class="title" id="aventure">Le début d'une belle aventure</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, placeat
-        voluptas consectetur ullam itaque nostrum nam ab sunt deserunt est.
-        Numquam dolorem nesciunt quidem quam illum quas eligendi dignissimos
-        sint, saepe reiciendis eos? Dicta incidunt autem rerum. Accusamus
-        aspernatur mollitia, debitis eligendi explicabo dolorem veritatis
-        pariatur consectetur praesentium repudiandae esse quibusdam maiores
-        sint, quo incidunt! Distinctio, totam dolore nihil repudiandae aperiam
-        eaque, incidunt explicabo ad placeat omnis corporis aliquam hic
-        exercitationem. Eum sequi repellat eaque quia nisi ducimus enim, animi
-        temporibus ad itaque vero nemo error omnis dignissimos sit autem harum
-        ipsa vel obcaecati molestias architecto aliquid cum mollitia et!
-      </p>
-    </section>
-    <!-- End Presentation -->
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img
+              src="/images/ski.jpg"
+              alt="Skieur en peau de phoque réalisant une ascension"
+            />
+            <h3 class="layout-title">Ski-Alpinisme</h3>
+          </div>
+          <div class="card-back">
+            <h3>Ski-Alpinisme</h3>
+            <p>
+              Le ski arrive dans les Alpes au 19e siècle en tant que moyen de
+              transport et à la fin du siècle, est détourné de sa vocation
+              initiale par la bourgeoisie anglaise, qui en fait un loisir pour
+              explorer les massifs au moyen du ski de randonnée.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img
+              src="/images/skate.png"
+              alt="Skateboarder faisant un boardslide sur une barre"
+            />
+            <h3 class="layout-title">Skateboard</h3>
+          </div>
+          <div class="card-back">
+            <h3>Skateboard</h3>
+            <p>
+              D'après la légende urbaine, le skate a été inventé par des
+              surfeurs californiens, qui, lorsque l'océan était plat,
+              cherchaient un moyen de reproduire les mêmes sensations procurées
+              par le surf.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img
+              src="/images/bmx.jpg"
+              alt="Homme faisant un demi-tour dans les airs avec son vélo"
+            />
+            <h3 class="layout-title">BMX</h3>
+          </div>
+          <div class="card-back">
+            <h3>BMX</h3>
+            <p>
+              Le BMX (en anglais : bicycle moto cross) apparaît en 1968 en
+              Californie, alors qu'au même moment le motocross devient un sport
+              très populaire aux États-Unis. La version motorisée de ce sport
+              est la source d'inspiration du BMX.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img
+              src="/images/vtt.png"
+              alt="Vélo sur une rampe en bois au dessus d'un chemin"
+            />
+            <h3 class="layout-title">VTT</h3>
+          </div>
+          <div class="card-back">
+            <h3>VTT</h3>
+            <p>
+              Le VTT est d'abord apparu en Californie, aux Etats-Unis, dans les
+              années 1970. Cette pratique est née d'un groupe d'amis qui
+              s'amusent à descendre les sentiers montagneux à vélo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img src="/images/surf.jpg" alt="Surfeur en train de ramer" />
+            <h3 class="layout-title">Surf</h3>
+          </div>
+          <div class="card-back">
+            <h3>Surf</h3>
+            <p>
+              Mais l'histoire du surf commence réellement à Hawaii puisque
+              l'archipel est le premier à médiatiser ce sport. Au 15ème siècle
+              le surf était donc une pratique courante chez les populations des
+              îles Hawaiiennes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img
+              src="/images/wakeboard.jpg"
+              alt="Wakeboarder tracté par un bâteau réalisant un saut"
+            />
+            <h3 class="layout-title">Wakeboard</h3>
+          </div>
+          <div class="card-back">
+            <h3>Wakeboard</h3>
+            <p>
+              C'est une activité dérivée du ski nautique qui fait sa première
+              apparition en 1920 sur le lac d'Annecy en Haute-Savoie. Les
+              skieurs sont tractés par un bateau motorisé à l'aide d'une corde
+              comportant à son extrémité une poignée appelée le « palonnier ».
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-wrapper">
+          <div class="card-front">
+            <img
+              src="/images/slackline.jpg"
+              alt="Homme debout sur une slackline entre deux palmiers"
+            />
+            <h3 class="layout-title">Slackline</h3>
+          </div>
+          <div class="card-back">
+            <h3>Slackline</h3>
+            <p>
+              La slackline est une pratique sportive s'apparentant au
+              funambulisme. Elle s'en distingue par l'utilisation d'une sangle
+              élastique, ainsi que par une absence de stabilisation de la
+              sangle.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End card display -->
+    </div>
+    <!-- End Grid Display -->
 
     <!-- Start Footer -->
-
     <footer>
       <!-- Start Réseaux-->
       <ul class="list">

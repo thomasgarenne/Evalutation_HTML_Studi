@@ -72,7 +72,13 @@ h3 {
 
 /* Sport Grid */
 .container {
-  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  gap: 20px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: auto;
 }
 
 /* Footer */

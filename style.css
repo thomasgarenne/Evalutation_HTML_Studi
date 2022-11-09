@@ -14,17 +14,18 @@ body {
 /*     Global     */
 
 .flux {
-  padding: 60px 30px;
+  padding: 0px 30px;
 }
 
 .layout {
-  height: 100vh;
+  min-height: 100vh;
   color: #212529;
 }
 
 .title {
   color: #212529;
   text-align: center;
+  padding-top: 60px;
 }
 
 .list {
@@ -33,6 +34,10 @@ body {
   align-items: center;
   gap: 20px;
   list-style: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
 }
 
 a {
@@ -52,11 +57,21 @@ p {
   height: 100vh;
 }
 
-.layout-title h2 {
+.layout-title h1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2rem;
+  color: #f1f1f1;
+}
+
+/* Footer */
+
+footer {
+  background-color: #212529;
+  padding: 20px;
+}
+
+path {
   color: #f1f1f1;
 }

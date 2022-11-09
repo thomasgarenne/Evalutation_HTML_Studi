@@ -14,12 +14,17 @@ body {
 /*     Global     */
 
 .flux {
-  margin: 30px;
+  padding: 60px 30px;
 }
 
 .layout {
-  min-height: 100vh;
-  color: #f1f1f1;
+  height: 100vh;
+  color: #212529;
+}
+
+.title {
+  color: #212529;
+  text-align: center;
 }
 
 .list {
@@ -32,6 +37,11 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  text-align: justify;
+  padding-top: 20px;
 }
 
 /* Accueil */
@@ -48,4 +58,5 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
+  color: #f1f1f1;
 }

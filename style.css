@@ -19,7 +19,7 @@ body {
 
 .layout {
   min-height: 100vh;
-  color: #212529;
+  color: #f1f1f1;
 }
 
 ul {
@@ -32,4 +32,20 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+/* Accueil */
+
+.layout-img img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout-title h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
 }

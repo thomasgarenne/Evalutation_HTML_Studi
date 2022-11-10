@@ -71,7 +71,7 @@ h3 {
 }
 
 /* Sport Grid */
-.container {
+.contain {
   display: grid;
   grid-template-columns: repeat(auto-fill, 310px);
   justify-content: center;
